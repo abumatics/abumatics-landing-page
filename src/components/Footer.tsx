@@ -101,14 +101,14 @@ export const Footer = () => {
       {/* Credits Section */}
       <section className="container pb-14 text-center">
         <h3 className="text-sm text-gray-600 dark:text-gray-400">
-          &copy; {new Date().getFullYear()} Abumatics. Crafted with love by{" "}
+          &copy; {new Date().getFullYear()} Abumatics.
           <a
             rel="noreferrer noopener"
             target="_blank"
             href="https://www.linkedin.com/in/inshal-armar-172895334/"
             className="text-primary dark:text-primary transition-all hover:border-b-2"
           >
-            Inshal
+          
           </a>{" "}
           &{" "}
           <a
@@ -117,7 +117,7 @@ export const Footer = () => {
             href="https://www.linkedin.com/in/majeed-mohtesham"
             className="text-primary dark:text-primary transition-all hover:border-b-2"
           >
-            Abdul Majeed
+            
           </a>
         </h3>
       </section>
