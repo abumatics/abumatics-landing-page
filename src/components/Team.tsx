@@ -12,7 +12,7 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
 import azhar2 from "../assets/azhar2.jpg";
 import sawood from "../assets/sawood.jpg";
 import naveed2 from "../assets/naveed2.jpg";
-import ameer from "../assets/ameer .jpg";
+import asmeer from "../assets/asmeer.jpg";
 import wakas from "../assets/wakas.jpg";
 
 interface TeamProps {
@@ -35,7 +35,7 @@ const teamList: TeamProps[] = [
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "",
+        url: "https://www.linkedin.com/in/naveed-damudi-45a98b42?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       // {
       //   name: "Facebook",
@@ -52,33 +52,33 @@ const teamList: TeamProps[] = [
     name: "Ahmed Waksas",
     position: "HR",
     socialNetworks: [
-      // {
-      //   name: "Linkedin",
-      //   url: "",
-      // },
       {
-        name: "Instagram",
-        url: "https://www.instagram.com/umerekkery_/",
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/syed-ahmed-wakas-7a4b554b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
+      // {
+      //   name: "Instagram",
+      //   url: "https://www.instagram.com/umerekkery_/",
+      // },
     ],
   },
   {
     imageUrl: sawood,
     name: "Sawood Shuraim ",
-    position: "Team Leader",
+    position: "Buisness development manager",
     socialNetworks: [
-      // {
-      //   name: "Linkedin",
-      //   url: "",
-      // },
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/sawood-shuraim51?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      },
       // {
       //   name: "Facebook",
       //   url: "https://www.facebook.com/",
       // },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
+      // {
+      //   name: "Instagram",
+      //   url: "https://www.instagram.com/",
+      // },
     ],
   },
   {
@@ -88,26 +88,18 @@ const teamList: TeamProps[] = [
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/azharuddin-ali/",
-      },
-      // {
-      //   name: "Facebook",
-      //   url: "https://www.facebook.com/",
-      // },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/its_majeed/",
+        url: "https://www.linkedin.com/in/azharuddin-ali-7a0b68274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
     ],
   },
   {
-    imageUrl: ameer,
+    imageUrl: asmeer,
     name: "Asmeer Ahmed",
     position: "Creative Director",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "",
+        url: "https://www.linkedin.com/in/asmeer-ahmed-0054b324a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       // {
       //   name: "Facebook",
