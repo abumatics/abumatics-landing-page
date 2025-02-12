@@ -1,6 +1,5 @@
 import { LogoIcon } from "./Icons";
-// import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaLinkedin, FaFacebook } from "react-icons/fa"; // Importing icons
 
 export const Footer = () => {
   return (
@@ -32,27 +31,47 @@ export const Footer = () => {
           <h3 className="font-bold text-lg text-gray-800 dark:text-gray-100">
             Follow Us
           </h3>
-          <div>
+          <div className="flex gap-4">
             <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-70 hover:opacity-100 transition-all text-gray-600 dark:text-gray-300"
+              href="https://x.com/abu_matics?t=fNkL1ou72aiaDBuJwtatSw&s=08"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Twitter"
+              className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-all text-2xl"
             >
-              Instagram
+              <FaTwitter />
             </a>
-          </div>
-          <div>
             <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-70 hover:opacity-100 transition-all text-gray-600 dark:text-gray-300"
+              href="https://www.instagram.com/abu_matics?igsh=MWxjdXphYzZnaDQ3cg%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="text-gray-600 dark:text-gray-300 hover:text-pink-500 transition-all text-2xl"
             >
-              Facebook
+              <FaInstagram />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/abumatics/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="text-gray-600 dark:text-gray-300 hover:text-blue-700 transition-all text-2xl"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=61573316572388"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-all text-2xl"
+            >
+              <FaFacebook />
             </a>
           </div>
         </div>
 
-        {/* Platforms */}
+        {/* Contact */}
         <div className="flex flex-col gap-4">
           <h3 className="font-bold text-lg text-gray-800 dark:text-gray-100">
             Contact
@@ -75,8 +94,8 @@ export const Footer = () => {
             >
               support@abumatics.com
             </a>
-            </div>
-            <div>
+          </div>
+          <div>
             <a
               href="https://www.google.com/maps/search/?api=1&query=Abumatics,+Moulana+Azad+Road,+Bhatkal+581320"
               target="_blank"
@@ -87,50 +106,23 @@ export const Footer = () => {
               Abumatics, Moulana Azad Road, Bhatkal 581320
             </a>
           </div>
-        
         </div>
       </section>
 
-     {/* Credits Section */}
-{/* <section className="container pb-14 text-center">
-  <h3 className="text-sm text-gray-600 dark:text-gray-400">
-    &copy; {new Date().getFullYear()} Abumatics. Crafted with love by{" "}
-    <a
-      rel="noreferrer noopener"
-      target="_blank"
-      href="https://www.linkedin.com/posts/abumatics_abumatics-linkedin-activity-7294629166824529921-de2R?utm_source=share&utm_medium=member_android&rcm=ACoAAD-8Mn8BG3oy0FPP8BhIUTfl7EAwuc279_g"
-      className="text-primary dark:text-primary transition-all hover:border-b-2"
-    >
-      Abumatics Team
-    </a>
-  </h3>
-</section>
-    </footer> */}
-
-
-{/* Credits Section */}
-<section className="container pb-14 text-center">
-  <h3 className="text-sm text-gray-600 dark:text-gray-400">
-    &copy; {new Date().getFullYear()} Abumatics. Crafted with love by Abumatics Team{" "}
-  </h3>
-  
-  {/* Social Media Links */}
-  <div className="flex justify-center space-x-4 mt-2">
-    <a href="https://www.linkedin.com/company/abumatics/" target="_blank" rel="noopener noreferrer">
-      <FaLinkedin className="w-6 h-6 text-blue-600 hover:text-blue-800 transition duration-300" />
-    </a>
-    <a href="https://www.facebook.com/profile.php?id=61573316572388" target="_blank" rel="noopener noreferrer">
-      <FaFacebook className="w-6 h-6 text-blue-500 hover:text-blue-700 transition duration-300" />
-    </a>
-    <a href="https://www.instagram.com/abu_matics?igsh=MWxjdXphYzZnaDQ3cg%3D%3D" target="_blank" rel="noopener noreferrer">
-      <FaInstagram className="w-6 h-6 text-pink-600 hover:text-pink-800 transition duration-300" />
-    </a>
-    <a href="https://x.com/abu_matics?t=fNkL1ou72aiaDBuJwtatSw&s=08" target="_blank" rel="noopener noreferrer">
-      <FaTwitter className="w-6 h-6 text-gray-600 hover:text-gray-800 transition duration-300" />
-    </a>
-  </div>
-</section>
-</footer>
-
+      {/* Credits Section */}
+      <section className="container pb-14 text-center">
+        <h3 className="text-sm text-gray-600 dark:text-gray-400">
+          &copy; {new Date().getFullYear()} Abumatics. Crafted with love by{" "}
+          <a
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://www.linkedin.com/posts/abumatics_abumatics-linkedin-activity-7294629166824529921-de2R?utm_source=share&utm_medium=member_android&rcm=ACoAAD-8Mn8BG3oy0FPP8BhIUTfl7EAwuc279_g"
+            className="text-primary dark:text-primary transition-all hover:border-b-2"
+          >
+            Abumatics Team
+          </a>
+        </h3>
+      </section>
+    </footer>
   );
 };
