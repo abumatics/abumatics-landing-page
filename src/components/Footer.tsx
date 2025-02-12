@@ -1,4 +1,5 @@
 import { LogoIcon } from "./Icons";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -90,7 +91,7 @@ export const Footer = () => {
       </section>
 
      {/* Credits Section */}
-<section className="container pb-14 text-center">
+{/* <section className="container pb-14 text-center">
   <h3 className="text-sm text-gray-600 dark:text-gray-400">
     &copy; {new Date().getFullYear()} Abumatics. Crafted with love by{" "}
     <a
@@ -103,6 +104,32 @@ export const Footer = () => {
     </a>
   </h3>
 </section>
-    </footer>
+    </footer> */}
+
+
+{/* Credits Section */}
+<section className="container pb-14 text-center">
+  <h3 className="text-sm text-gray-600 dark:text-gray-400">
+    &copy; {new Date().getFullYear()} Abumatics. Crafted with love by Abumatics Team{" "}
+  </h3>
+  
+  {/* Social Media Links */}
+  <div className="flex justify-center space-x-4 mt-2">
+    <a href="https://www.linkedin.com/company/abumatics/" target="_blank" rel="noopener noreferrer">
+      <FaLinkedin className="w-6 h-6 text-blue-600 hover:text-blue-800 transition duration-300" />
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61573316572388" target="_blank" rel="noopener noreferrer">
+      <FaFacebook className="w-6 h-6 text-blue-500 hover:text-blue-700 transition duration-300" />
+    </a>
+    <a href="https://www.instagram.com/abu_matics?igsh=MWxjdXphYzZnaDQ3cg%3D%3D" target="_blank" rel="noopener noreferrer">
+      <FaInstagram className="w-6 h-6 text-pink-600 hover:text-pink-800 transition duration-300" />
+    </a>
+    <a href="https://x.com/abu_matics?t=fNkL1ou72aiaDBuJwtatSw&s=08" target="_blank" rel="noopener noreferrer">
+      <FaTwitter className="w-6 h-6 text-gray-600 hover:text-gray-800 transition duration-300" />
+    </a>
+  </div>
+</section>
+</footer>
+
   );
 };
