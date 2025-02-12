@@ -25,6 +25,25 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
+    imageUrl: avatar,
+    name: "Naveed Damudi",
+    position: "Founder",
+    socialNetworks: [
+      // {
+      //   name: "Linkedin",
+      //   url: "",
+      // },
+      // {
+      //   name: "Facebook",
+      //   url: "https://www.facebook.com/",
+      // },
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
     imageUrl: azhar,
     name: "Naveed Damudi",
     position: "Founder",
@@ -45,7 +64,7 @@ const teamList: TeamProps[] = [
   },
   {
     imageUrl: avatar,
-    name: "Naveed Damudi",
+    name: "Sawood Shuraim ",
     position: "Founder",
     socialNetworks: [
       // {
@@ -62,44 +81,7 @@ const teamList: TeamProps[] = [
       },
     ],
   },
-  {
-    imageUrl: avatar,
-    name: "Naveed Damudi",
-    position: "Founder",
-    socialNetworks: [
-      // {
-      //   name: "Linkedin",
-      //   url: "",
-      // },
-      // {
-      //   name: "Facebook",
-      //   url: "https://www.facebook.com/",
-      // },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
-    ],
-  },
-  {
-    imageUrl: avatar,
-    name: "Naveed Damudi",
-    position: "Founder",
-    socialNetworks: [
-      // {
-      //   name: "Linkedin",
-      //   url: "",
-      // },
-      // {
-      //   name: "Facebook",
-      //   url: "https://www.facebook.com/",
-      // },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
-    ],
-  },
+  
   {
     imageUrl: avatar,
     name: "Abdul Majeed",
