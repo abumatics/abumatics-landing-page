@@ -9,9 +9,11 @@ import {
 } from "@/components/ui/card";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 import avatar from "../assets/avatar.jpg";
-import azhar from "../assets/azhar.jpg";
+import azhar2 from "../assets/azhar2.jpg";
 import sawood from "../assets/sawood.jpg";
-import naveed from "../assets/naveed.jpg";
+import naveed2 from "../assets/naveed2.jpg";
+import ameer from "../assets/ameer.jpg";
+import wakas from "../assets/wakas.jpg";
 
 interface TeamProps {
   imageUrl: string;
@@ -27,7 +29,7 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: naveed,
+    imageUrl: naveed2,
     name: "Naveed Damudi",
     position: "Founder",
     socialNetworks: [
@@ -46,7 +48,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: avatar,
+    imageUrl: wakas,
     name: "Ahmed Waksas",
     position: "HR",
     socialNetworks: [
@@ -63,7 +65,7 @@ const teamList: TeamProps[] = [
   {
     imageUrl: sawood,
     name: "Sawood Shuraim ",
-    position: "Founder",
+    position: "Team Leader",
     socialNetworks: [
       // {
       //   name: "Linkedin",
@@ -80,34 +82,13 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: azhar,
-    name: "Naveed Damudi",
-    position: "Founder",
-    socialNetworks: [
-      // {
-      //   name: "Linkedin",
-      //   url: "",
-      // },
-      // {
-      //   name: "Facebook",
-      //   url: "https://www.facebook.com/",
-      // },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
-    ],
-  },
-  
-  
-  {
-    imageUrl: avatar,
-    name: "Abdul Majeed",
-    position: "Tech Lead",
+    imageUrl: azhar2,
+    name: "Azharuddin Ali",
+    position: "Tech Leadear",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/majeed-mohtesham/",
+        url: "https://www.linkedin.com/in/azharuddin-ali/",
       },
       // {
       //   name: "Facebook",
@@ -119,6 +100,28 @@ const teamList: TeamProps[] = [
       },
     ],
   },
+  {
+    imageUrl: ameer,
+    name: "Asmeer Ahmed",
+    position: "Creative Director",
+    socialNetworks: [
+      {
+        name: "Linkedin",
+        url: "",
+      },
+      // {
+      //   name: "Facebook",
+      //   url: "https://www.facebook.com/",
+      // },
+      // {
+      //   name: "Instagram",
+      //   url: "https://www.instagram.com/",
+      // },
+    ],
+  },
+  
+  
+  
   // {
   //   imageUrl: avatar,
   //   name: "Abdullah Inshal",
