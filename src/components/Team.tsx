@@ -1,3 +1,4 @@
+import "./index.css";
 import { buttonVariants } from "@/components/ui/button";
 import {
   Card,
