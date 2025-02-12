@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/card";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 import avatar from "../assets/avatar.jpg";
-import 01 from "../assets/01.jpg";
+import azhar from "../assets/azhar.jpg";
 
 interface TeamProps {
   imageUrl: string;
@@ -25,7 +25,7 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: 01,
+    imageUrl: azhar,
     name: "Naveed Damudi",
     position: "Founder",
     socialNetworks: [
