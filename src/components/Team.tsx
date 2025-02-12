@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
-import avatar from "../assets/avatar.jpg";
+// import avatar from "../assets/avatar.jpg";
 import azhar2 from "../assets/azhar2.jpg";
 import sawood from "../assets/sawood.jpg";
 import naveed2 from "../assets/naveed2.jpg";
