@@ -84,7 +84,7 @@ const teamList: TeamProps[] = [
   {
     imageUrl: azhar2,
     name: "Azharuddin Ali",
-    position: "Tech Leadear",
+    position: "IT Head",
     socialNetworks: [
       {
         name: "Linkedin",
