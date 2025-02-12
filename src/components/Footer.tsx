@@ -1,6 +1,6 @@
 import { LogoIcon } from "./Icons";
 // import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
-// import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const Footer = () => {
   return (
