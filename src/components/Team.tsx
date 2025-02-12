@@ -72,56 +72,24 @@ export const Team = () => {
   };
 
   return (
-    <section id="team" className="container py-24 sm:py-32">
-      <h2 className="text-3xl md:text-4xl font-bold">
-        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Our Dedicated{" "}
-        </span>
-        Crew
-      </h2>
-
-      <p className="mt-4 mb-10 text-xl text-muted-foreground">
-        Our team is made up of passionate, skilled, and experienced professionals who work together to deliver exceptional results.
-      </p>
-
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-10">
-        {teamList.map(({ imageUrl, name, position, socialNetworks }, index) => (
-          <Card
-            key={name}
-            className={`bg-muted/50 relative mt-8 flex flex-col justify-center items-center team-card ${
-              index >= teamList.length - 2 ? "last-two" : ""
-            }`}
-          >
-            <CardHeader className="mt-8 flex justify-center items-center pb-2">
-              <img
-                src={imageUrl}
-                alt={`${name} ${position}`}
-                className="absolute -top-12 rounded-full w-24 h-24 aspect-square object-cover profile-img"
-              />
-              <CardTitle className="text-center">{name}</CardTitle>
-              <CardDescription className="text-primary">{position}</CardDescription>
-            </CardHeader>
-
-            <CardContent className="text-center pb-2"></CardContent>
-
-            <CardFooter className="social-icons">
-              {socialNetworks.map(({ name, url }) => (
-                <div key={name}>
-                  <a
-                    rel="noreferrer noopener"
-                    href={url}
-                    target="_blank"
-                    className={buttonVariants({ variant: "ghost", size: "sm" })}
-                  >
-                    <span className="sr-only">{name} icon</span>
-                    {socialIcon(name)}
-                  </a>
-                </div>
-              ))}
-            </CardFooter>
-          </Card>
-        ))}
+   <section id="team" className="team-section">
+  <h2 className="team-title">Our Dedicated Crew</h2>
+  <div className="team-grid">
+    {teamList.map(({ imageUrl, name, position, socialNetworks }) => (
+      <div key={name} className="team-card">
+        <img src={imageUrl} alt={`${name} ${position}`} />
+        <h3>{name}</h3>
+        <p>{position}</p>
+        <div className="social-links">
+          {socialNetworks.map(({ name, url }) => (
+            <a key={name} href={url} target="_blank" rel="noreferrer">
+              {socialIcon(name)}
+            </a>
+          ))}
+        </div>
       </div>
-    </section>
+    ))}
+  </div>
+</section>
   );
 };
