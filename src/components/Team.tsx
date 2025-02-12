@@ -12,7 +12,7 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
 import azhar2 from "../assets/azhar2.jpg";
 import sawood from "../assets/sawood.jpg";
 import naveed2 from "../assets/naveed2.jpg";
-import asmeer from "../assets/asmeer.jpg";
+import asmeer from "../assets/asmer.jpg";
 import wakas from "../assets/wakas.jpg";
 
 interface TeamProps {
