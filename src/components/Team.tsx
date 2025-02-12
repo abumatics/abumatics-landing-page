@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 import avatar from "../assets/avatar.jpg";
+import 01 from "../assets/01.jpg";
 
 interface TeamProps {
   imageUrl: string;
