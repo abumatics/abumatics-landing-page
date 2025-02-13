@@ -14,6 +14,7 @@ import sawood from "../assets/sawood.jpg";
 import naveed2 from "../assets/naveed2.jpg";
 import asmeer from "../assets/amer.jpg";
 import wakas from "../assets/wakas.jpg";
+import asil from "../assets/asil.jpg";
 
 interface TeamProps {
   imageUrl: string;
@@ -96,6 +97,25 @@ const teamList: TeamProps[] = [
     imageUrl: asmeer,
     name: "Asmeer Ahmed",
     position: "Creative Director",
+    socialNetworks: [
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/asmeer-ahmed-0054b324a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      },
+      // {
+      //   name: "Facebook",
+      //   url: "https://www.facebook.com/",
+      // },
+      // {
+      //   name: "Instagram",
+      //   url: "https://www.instagram.com/",
+      // },
+    ],
+  },
+  {
+    imageUrl: asil,
+    name: "Asil Ali",
+    position: "AI Consultant",
     socialNetworks: [
       {
         name: "Linkedin",
