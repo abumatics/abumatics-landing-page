@@ -119,7 +119,7 @@ const teamList: TeamProps[] = [
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/asmeer-ahmed-0054b324a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        url: "https://www.linkedin.com/in/asil-ali-akbar-065209231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       },
       // {
       //   name: "Facebook",

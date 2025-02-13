@@ -112,15 +112,15 @@ export const Footer = () => {
       {/* Credits Section */}
       <section className="container pb-14 text-center">
         <h3 className="text-sm text-gray-600 dark:text-gray-400">
-          &copy; {new Date().getFullYear()} Abumatics. Crafted with love by{" "}
-          <a
+          &copy; {new Date().getFullYear()} Abumatics. Crafted with love by Abumatics Team{" "}
+          {/* <a
             rel="noreferrer noopener"
             target="_blank"
             href="https://www.linkedin.com/posts/abumatics_abumatics-linkedin-activity-7294629166824529921-de2R?utm_source=share&utm_medium=member_android&rcm=ACoAAD-8Mn8BG3oy0FPP8BhIUTfl7EAwuc279_g"
             className="text-primary dark:text-primary transition-all hover:border-b-2"
           >
             Abumatics Team
-          </a>
+          </a> */}
         </h3>
       </section>
     </footer>
