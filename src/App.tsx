@@ -37,7 +37,7 @@ function App() {
   );
 }
 
-// export default App;
+export default App;
 
 // import { About } from "./components/About";
 // import { ContactForm } from "./components/ContactForm";  // Updated import for ContactForm
