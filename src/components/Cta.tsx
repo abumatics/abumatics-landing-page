@@ -45,7 +45,7 @@ export const ContactUs = () => {
           <h3 className="text-2xl font-semibold text-center sm:text-left mb-4 text-gray-900 dark:text-gray-100">
             Send Us a Message
           </h3>
-          <form className="space-y-6 bg-white p-8 rounded-lg shadow-lg border border-muted/50 dark:bg-gray-800 dark:border-muted/60">
+         <form name="contact" method="POST" action="https://script.google.com/macros/s/AKfycbyH24LukHqjp86GjtTLbj9se3h72xff44FfsxNoafJ35XjI5eG1bKj7Rx2QiISp8jSW/exec" className="space-y-6 bg-white p-8 rounded-lg shadow-lg border border-muted/50 dark:bg-gray-800 dark:border-muted/60">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <div>
                 <label
