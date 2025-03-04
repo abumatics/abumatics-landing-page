@@ -185,7 +185,7 @@ export const ContactUs = () => {
           <form
             name="contact"
             method="POST"
-            action="https://script.google.com/macros/s/AKfycbyH24LukHqjp86GjtTLbj9se3h72xff44FfsxNoafJ35XjI5eG1bKj7Rx2QiISp8jSW/exec"
+            action="https://script.google.com/macros/s/AKfycbzmea-nT3kdhKzK_VumahFrgJLGMuC-qXplwzZ29TgiDeA-I_t3OhyRbbMkbtgnXF72/exec"
             className="space-y-6 bg-white p-8 rounded-lg shadow-lg border border-muted/50 dark:bg-gray-800 dark:border-muted/60"
             onSubmit={handleSubmit}
           >
