@@ -68,10 +68,10 @@ const teamList: TeamProps[] = [
     name: "Sawood Shuraim ",
     position: "Buisness development manager",
     socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/in/sawood-shuraim51?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      },
+      // {
+      //   name: "Linkedin",
+      //   url: "https://www.linkedin.com/in/sawood-shuraim51?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      // },
       // {
       //   name: "Facebook",
       //   url: "https://www.facebook.com/",
@@ -87,10 +87,10 @@ const teamList: TeamProps[] = [
     name: "Azharuddin Ali",
     position: "IT Head",
     socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/in/azharuddin-ali-7a0b68274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      },
+      // {
+      //   name: "Linkedin",
+      //   url: "https://www.linkedin.com/in/azharuddin-ali-7a0b68274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      // },
     ],
   },
   {
@@ -98,10 +98,10 @@ const teamList: TeamProps[] = [
     name: "Asmeer Ahmed",
     position: "Creative Director",
     socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/in/asmeer-ahmed-0054b324a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      },
+      // {
+      //   name: "Linkedin",
+      //   url: "https://www.linkedin.com/in/asmeer-ahmed-0054b324a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      // },
       // {
       //   name: "Facebook",
       //   url: "https://www.facebook.com/",
@@ -117,10 +117,10 @@ const teamList: TeamProps[] = [
     name: "Asil Ali",
     position: "AI Consultant",
     socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/in/asil-ali-akbar-065209231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      },
+      // {
+      //   name: "Linkedin",
+      //   url: "https://www.linkedin.com/in/asil-ali-akbar-065209231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      // },
       // {
       //   name: "Facebook",
       //   url: "https://www.facebook.com/",
