@@ -22,6 +22,7 @@ function App() {
       <Navbar />
       <Hero />
       {/* <Sponsors /> */}
+      <CallButton />
       <About />
       {/* <HowItWorks /> */}
       <Features />
