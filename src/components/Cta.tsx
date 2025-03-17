@@ -119,9 +119,14 @@ import { Button } from "./ui/button";
 export const ContactUs = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const form = e.target;
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   const form = e.target;
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  console.log(e.target.value);
+};
+
 
     fetch(form.action, {
       method: form.method,
