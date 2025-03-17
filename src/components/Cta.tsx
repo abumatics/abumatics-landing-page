@@ -123,25 +123,44 @@ export const ContactUs = () => {
   //   e.preventDefault();
   //   const form = e.target;
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-  console.log(e.target.value);
+//   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+//   console.log(e.target.value);
+// };
+
+
+//     fetch(form.action, {
+//       method: form.method,
+//       body: new FormData(form),
+//     })
+//       .then(() => {
+//         setIsSubmitted(true);
+//         form.reset(); // Clear form fields after submission
+//         alert("Your message has been sent successfully!");
+//       })
+//       .catch((error) => {
+//         console.error("Form submission error:", error);
+//         alert("Oops! Something went wrong. Please try again.");
+//       });
+//   };
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  const form = e.target as HTMLFormElement;
+
+  fetch(form.action, {
+    method: form.method,
+    body: new FormData(form),
+  })
+    .then(() => {
+      setIsSubmitted(true);
+      form.reset(); // Clear form fields after submission
+      alert("Your message has been sent successfully!");
+    })
+    .catch((error) => {
+      console.error("Form submission error:", error);
+      alert("Oops! Something went wrong. Please try again.");
+    });
 };
 
-
-    fetch(form.action, {
-      method: form.method,
-      body: new FormData(form),
-    })
-      .then(() => {
-        setIsSubmitted(true);
-        form.reset(); // Clear form fields after submission
-        alert("Your message has been sent successfully!");
-      })
-      .catch((error) => {
-        console.error("Form submission error:", error);
-        alert("Oops! Something went wrong. Please try again.");
-      });
-  };
 
   return (
     <section
