@@ -49,7 +49,7 @@ const teamList: TeamProps[] = [
   {
     imageUrl: wakas,
     name: "Ahmed Wakas",
-    position: "HR consultant",
+    position: "HR Consultant",
     socialNetworks: [
       {
         name: "Linkedin",
@@ -76,7 +76,7 @@ const teamList: TeamProps[] = [
   {
     imageUrl: avatar,
     name: "Abeed",
-    position: "IT consultant",
+    position: "IT Consultant",
     socialNetworks: [
       //{
         //name: "Linkedin",
