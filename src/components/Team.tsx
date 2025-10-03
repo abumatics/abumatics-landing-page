@@ -8,13 +8,11 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
-// import avatar from "../assets/avatar.jpg";
-import azhar2 from "../assets/azhar2.jpg";
-import sawood from "../assets/sawood.jpg";
+import avatar from "../assets/avatar.jpg";
+import girlavatar from "../assets/girlavatar.png";
 import naveed2 from "../assets/naveed2.jpg";
-import asmeer from "../assets/amer.jpg";
 import wakas from "../assets/wakas.jpg";
-import asil from "../assets/asil.jpg";
+//import { Avatar } from "@radix-ui/react-avatar";
 
 interface TeamProps {
   imageUrl: string;
@@ -50,8 +48,8 @@ const teamList: TeamProps[] = [
   },
   {
     imageUrl: wakas,
-    name: "Ahmed Waksas",
-    position: "HR",
+    name: "Ahmed Wakas",
+    position: "HR consultant",
     socialNetworks: [
       {
         name: "Linkedin",
@@ -63,29 +61,11 @@ const teamList: TeamProps[] = [
       // },
     ],
   },
+  
   {
-    imageUrl: sawood,
-    name: "Sawood Shuraim ",
-    position: "Buisness development manager",
-    socialNetworks: [
-      // {
-      //   name: "Linkedin",
-      //   url: "https://www.linkedin.com/in/sawood-shuraim51?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      // },
-      // {
-      //   name: "Facebook",
-      //   url: "https://www.facebook.com/",
-      // },
-      // {
-      //   name: "Instagram",
-      //   url: "https://www.instagram.com/",
-      // },
-    ],
-  },
-  {
-    imageUrl: azhar2,
-    name: "Azharuddin Ali",
-    position: "IT Head",
+    imageUrl: avatar,
+    name: "Areeb Ahmed",
+    position: "Business Automation and IT Head",
     socialNetworks: [
       // {
       //   name: "Linkedin",
@@ -94,9 +74,24 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: asmeer,
-    name: "Asmeer Ahmed",
-    position: "Creative Director",
+    imageUrl: avatar,
+    name: "Abeed",
+    position: "IT consultant",
+    socialNetworks: [
+      //{
+        //name: "Linkedin",
+        //url: "https://www.linkedin.com/in/syed-ahmed-wakas-7a4b554b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      //},
+      // {
+      //   name: "Instagram",
+      //   url: "https://www.instagram.com/umerekkery_/",
+      // },
+    ],
+  },
+  {
+    imageUrl: girlavatar,
+    name: "Razina Katingeri",
+    position: "Performance and Operations Coordinator",
     socialNetworks: [
       // {
       //   name: "Linkedin",
@@ -113,9 +108,9 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: asil,
-    name: "Asil Ali",
-    position: "AI Consultant",
+    imageUrl: girlavatar,
+    name: "Akshata S. Naik",
+    position: "Data Entry Head",
     socialNetworks: [
       // {
       //   name: "Linkedin",
@@ -134,42 +129,43 @@ const teamList: TeamProps[] = [
   
   
   
-  // {
-  //   imageUrl: avatar,
-  //   name: "Abdullah Inshal",
-  //   position: "Developer",
-  //   socialNetworks: [
-  //     // {
-  //     //   name: "Linkedin",
-  //     //   url: "https://www.linkedin.com/in/leopoldo-miranda/",
-  //     // },
+  {
+     imageUrl: girlavatar,
+     name: "Nayana P. Naik",
+     position: "Data Entry",
+     socialNetworks: [
+      // {
+      //   name: "Linkedin",
+     //   url: "https://www.linkedin.com/in/leopoldo-miranda/",
+      // },
 
   //     {
   //       name: "Instagram",
   //       url: "https://www.instagram.com/inshal_armar/",
   //     },
-  //   ],
-  // },
-  // {
-  //   imageUrl: avatar,
-  //   name: "Syed Nawaz",
-  //   position: "Digital Marketing Specialist",
-  //   socialNetworks: [
+   ],
+   },
+  {
+   imageUrl: girlavatar,
+     name: "Bhoomika V. Naik",
+    position: "Data Entry",
+    socialNetworks: [
   //     // {
   //     //   name: "Linkedin",
   //     //   url: "https://www.linkedin.com/in/leopoldo-miranda/",
   //     // },
-  //     {
+      //{
   //       name: "Instagram",
   //       url: "https://www.instagram.com/its.nawazz/",
-  //     },
-  //   ],
-  // },
-  // {
-  //   imageUrl: avatar,
-  //   name: "Abdullah Quazi",
-  //   position: "Developer",
-  //   socialNetworks: [
+      // },
+   ],
+  },
+  
+  {
+     imageUrl: girlavatar,
+     name: "Anita M. Naik",
+     position: "Data Entry",
+    socialNetworks: [
   //     // {
   //     //   name: "Linkedin",
   //     //   url: "https://www.linkedin.com/in/leopoldo-miranda/",
@@ -178,9 +174,24 @@ const teamList: TeamProps[] = [
   //       name: "Instagram",
   //       url: "https://www.instagram.com/abdullah__quazi/",
   //     },
-  //   ],
-  // },
+     ],
+   },
   
+   {
+     imageUrl:  girlavatar,
+     name: "Shweta N. Moger",
+     position: "Data Entry",
+    socialNetworks: [
+  //     // {
+  //     //   name: "Linkedin",
+  //     //   url: "https://www.linkedin.com/in/leopoldo-miranda/",
+  //     // },
+  //     {
+  //       name: "Instagram",
+  //       url: "https://www.instagram.com/abdullah__quazi/",
+  //     },
+     ],
+   },
 ];
 
 export const Team = () => {
