@@ -10,6 +10,7 @@ import {
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 import avatar from "../assets/avatar.jpg";
 import girlavatar from "../assets/girlavatar.png";
+import areeb from "../assets/areeb.png";
 import naveed2 from "../assets/naveed2.jpg";
 import wakas from "../assets/wakas.jpg";
 //import { Avatar } from "@radix-ui/react-avatar";
@@ -63,7 +64,7 @@ const teamList: TeamProps[] = [
   },
   
   {
-    imageUrl: avatar,
+    imageUrl: areeb,
     name: "Areeb Ahmed",
     position: "Business Automation and IT Head",
     socialNetworks: [
