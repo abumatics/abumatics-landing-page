@@ -10,6 +10,7 @@ import {
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 import avatar from "../assets/avatar.jpg";
 import girlavatar from "../assets/girlavatar.png";
+import Abeed from "../assets/Abeed.png";
 import areeb from "../assets/areeb.png";
 import naveed2 from "../assets/naveed2.jpg";
 import wakas from "../assets/wakas.jpg";
@@ -75,7 +76,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: avatar,
+    imageUrl: Abeed,
     name: "Abeed",
     position: "IT Consultant",
     socialNetworks: [
